@@ -34,6 +34,6 @@ print_char:
 	int 0x10
 	ret
 
-message: db "welcome to moon os...-_-",0
+message: db "welcome to moon os...",0
 times 510-($-$$) db 0
 dw 0xAA55
